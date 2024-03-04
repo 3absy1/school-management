@@ -15,6 +15,7 @@ class AttendanceController extends Controller
     }
 
 
+
     public function index()
     {
         return $this->Attendance->index();
